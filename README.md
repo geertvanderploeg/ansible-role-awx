@@ -46,7 +46,8 @@ None.
       vars:
         nodejs_version: "6.x"
         pip_install_packages:
-          - name: docker-py
+          - name: docker
+          - name: docker-compose==1.24.1
     
       roles:
         - geerlingguy.repo-epel
